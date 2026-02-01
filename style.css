@@ -1,0 +1,287 @@
+body{
+    background-color: darkgrey;
+}
+#home_button{
+    background-color:darkgray;
+    color:white;
+    font-size: 30px;
+    padding:10px 10px 10px 10px;
+    border-radius: 8px;
+    border:none;
+    font-weight: bold;
+    margin-right: 300px;
+}
+#about_button{
+    background-color:darkgray;
+    color: white;
+    font-size: 30px;
+    padding:10px 10px 10px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    margin-right: 300px;
+}
+#contact_button{
+    background-color: darkgray;
+    color: white;
+    font-size: 30px;
+    padding:10px 10px 10px 10px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+}
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+#profile_image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#profile_section{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background-color: lightgray;
+    border-radius: 30px;
+    margin: 100px;
+}
+#text_1{
+    position: relative;
+    font-size: 25px;
+    width: 50%;
+    font-weight: bold;
+}
+#text_2{
+    position: static;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+#skill1_logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-left:700px;
+}
+#skill1txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color:black;
+}
+#Cppskill{
+    display: flex;
+    background-color:lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 90px;
+}
+#Java_skill{
+    display: flex;
+    background-color:lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 90px;
+}
+#skill2txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color:black;
+}
+#Java_logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-left:700px;
+}
+#mysql_skill{
+    display: flex;
+    background-color:lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 90px;
+}
+#skill3txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color:black;
+}
+#mysql_logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-left:620px;
+}
+#html_skill{
+    display: flex;
+    background-color:lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 90px; 
+}
+#skill4txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color:black;
+}
+#html_logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-left:670px;
+}
+#css_skill{
+    display: flex;
+    background-color:lightgray;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin: 90px;
+}
+#skill5_txt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+    color:black;
+}
+#css_logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    margin-left:720px;
+}
+#skills_section{
+    display:flex;
+    flex-direction: column;
+    border-radius: 3%;
+    background-color: grey;
+    margin:50px;
+}
+#achivement1txt{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+#achievement1_image{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#achievement1{
+    display:flex;
+    background-color: azure;
+    border-radius: 20px;
+    margin:50px;
+    height:170px;
+    align-items: center;
+}
+#achivement2txt{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+#achievement2_image{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#achievement2{
+    display:flex;
+    background-color: azure;
+    border-radius: 20px;
+    margin:50px;
+    height:170px;
+    align-items: center;
+}
+#achivement3txt{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+#achievement3_image{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#achievement3{
+    display: flex;
+    background-color: azure;
+    border-radius: 20px;
+    margin:50px;
+    height:170px;
+    align-items: center;
+}
+#achivement4txt{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 15px;
+}
+#achievement4_image{
+    height:150px;
+    width: 150px;
+    border-radius: 20px;
+}
+#achievement4{
+    display:flex;
+    background-color: azure;
+    border-radius: 20px;
+    margin:50px;
+    height:170px;
+    align-items: center;
+}
+#achivement_header{
+    font-size: 60px;
+    font-weight: bolder;
+    position:static;
+    margin-left: 475px;
+}
+#achievements_section{
+    display: flex;
+    flex-direction: column;
+    background-color:gray;
+    border-radius: 30px;
+    margin:50px;
+}
+#contact_txt{
+    font-size: 60px;
+    font-weight: bolder;
+    margin-left:590px;
+    padding-top: 20px;
+}
+#contact_section a i{
+    font-size: 50px;    
+    color: black;
+}
+#contact_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color:grey;
+    border-radius: 30px;
+    margin:40px;
+}
+#contact_section{
+    background-color:lightgray;
+    height: 250px;
+    border-radius: 30px;
+    margin:40px;
+    padding-bottom: 20px;
+}
