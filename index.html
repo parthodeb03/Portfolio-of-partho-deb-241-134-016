@@ -3,103 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio of Partho Deb</title>
+    <title>Portfolio — Partho Deb</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
-    <div id="header">
-        <button id = "home_button">Home</button>
-        <button id="about_button">About</button>
-        <button id="contact_button">Contact</button>
-    </div>
-
-    <div id = "profile_section">
-        <p id="text_1">I'm Partho Deb. I am currently a student of Software Engineering in Metropolitan University, Sylhet, Bangladesh. I live in Sylhet town. This is my portfolio website where you can see my skills and achievements in the tech field.</p>
-        <img src = "Images/profileimage.jpg" alt="Profile Image" id="profile_image">
-    </div>
-
-    <div id="skills_section">
-
-        <p id="text_2">My Skills</p>
-        <div id ="Cppskill">
-        <div id="skill1txt"><p>C++</p></div>
-        <img src="Images/C++.jpg" alt ="C++ Logo" id="skill1_logo">
+    <nav>
+        <div class="nav-logo">PD.</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#interests">Interests</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
         </div>
-
-        <div id = "Java_skill">
-        <div id="skill2txt"><p id="skill_2">Java</p></div>
-        <img src="Images/Java.png" alt ="Java Logo" id="Java_logo">
-        </div>
-
-        <div id="mysql_skill">
-        <div id="skill3txt"><p id="skill_3">MySQL</p></div>
-        <img src="Images/mysql.jpg" alt ="MySQL Logo" id="mysql_logo">
-        </div>
-
-        <div id="html_skill">
-        <div id="skill4txt"><p id="skill_4">HTML</p></div>
-        <img src="Images/html.jpg" alt ="HTML Logo" id="html_logo">
-        </div>
-
-        <div id="css_skill">
-        <div id="skill5_txt"><p id="skill_5">CSS</p></div>
-        <img src="Images/css3.jpg" alt ="CSS Logo" id="css_logo">
-        </div>
-    </div>
-
-    <div id="achievements_section">
-
-        <p id="achivement_header">My Achivements</p>
-
-        <div id="achievement1">
-        <p id="achivement1txt">
-            Awarded as a content maker and a mentor at "MU Programming Olympiad 2025 Season 2"
-        </p>
-        <img src="Images/reward.png" alt="Achievement 1" id="achievement1_image">
-        </div>
-
-        <div id="achievement2">
-            <p id="achivement2txt">
-                Secured 31th position out of 57 teams at Intra Metropolitan University Programming Contest 2025
-            </p>
-            <img src="Images/reward.png" alt="Achievement 2" id="achievement2_image">
-        </div>
-
-        <div id="achievement3">
-            <p id="achivement3txt">
-                Secured 14th position out of 67 participants at SWE Techjam Programming Contest 2024
-            </p>
-            <img src="Images/reward.png" alt="Achievement 3" id="achievement3_image">
-        </div>
-
-          <div id="achievement4">
-            <p id="achivement4txt">
-                Secured 25th position out of 104 participants at MU CP Booster 1.0 Programming Contest 2024
-            </p>
-            <img src="Images/reward.png" alt="Achievement 4" id="achievement4_image">
-        </div>
-
-    </div>
-
-    <div id="contact_section">
-        <p id="contact_txt">Contact Me</p>
-        <div id="contact_list">
-        <div id="facebook">
-            <a href ="https://www.facebook.com/DegenerationXAvi76.Violent/" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
-        </div>
-        <div id="instagram">
-            <a href="https://www.instagram.com/thevoid_phoenix/" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <div id="linkedin">
-            <a href="https://www.linkedin.com/in/partho-deb-1433383a1/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-        </div>
-        <div id="email">
-            <a href="mailto:parthodebofficial2003@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-        </div>
+    </nav>
+    <div id="home">
+        <div class="hero-orb orb1"></div>
+        <div class="hero-orb orb2"></div>
+        <div class="hero-inner">
+            <div class="hero-text">
+                <div class="hero-tag">// Software Engineering Student</div>
+                <h1 class="hero-name">
+                    <span>PARTHO</span>
+                    <span class="accent-line">DEB</span>
+                </h1>
+                <p class="hero-bio">
+                    Student at <strong>Metropolitan University, Sylhet</strong> · passionate about competitive programming, algorithms, and building things on the web. Based in <strong>Sylhet, Bangladesh</strong>.
+                </p>
+                <div class="hero-cta">
+                    <a href="#achievements" class="btn-primary"><i class="fa-solid fa-trophy"></i> Achievements</a>
+                    <a href="#contact" class="btn-outline"><i class="fa-solid fa-paper-plane"></i> Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-wrap">
+                <div class="hero-image-ring">
+                    <div class="hero-image-inner">
+                        <img src="Images/profileimage.jpg" alt="Partho Deb">
+                    </div>
+                </div>
+                <div class="hero-badge">
+                    <div class="badge-dot"></div>
+                    <span class="badge-text">Open to Opportunities</span>
+                </div>
+            </div>
         </div>
     </div>
+    <section id="skills">
+        <div class="section-label">// Toolbox</div>
+        <div class="section-title">My Skills</div>
+        <div class="skills-grid">
+
+            <div class="skill-card skill-cpp">
+                <div class="skill-icon">⚡</div>
+                <div class="skill-name">C++</div>
+                <div class="skill-level"><div class="skill-level-bar bar-cpp"></div></div>
+            </div>
+
+            <div class="skill-card skill-java">
+                <div class="skill-icon">☕</div>
+                <div class="skill-name">Java</div>
+                <div class="skill-level"><div class="skill-level-bar bar-java"></div></div>
+            </div>
+
+            <div class="skill-card skill-mysql">
+                <div class="skill-icon">🗄️</div>
+                <div class="skill-name">MySQL</div>
+                <div class="skill-level"><div class="skill-level-bar bar-mysql"></div></div>
+            </div>
+
+            <div class="skill-card skill-html">
+                <div class="skill-icon">🌐</div>
+                <div class="skill-name">HTML</div>
+                <div class="skill-level"><div class="skill-level-bar bar-html"></div></div>
+            </div>
+
+            <div class="skill-card skill-css">
+                <div class="skill-icon">🎨</div>
+                <div class="skill-name">CSS</div>
+                <div class="skill-level"><div class="skill-level-bar bar-css"></div></div>
+            </div>
+
+        </div>
+    </section>
+    <section id="interests">
+        <div class="section-label">// Passion Areas</div>
+        <div class="section-title">My Interests</div>
+        <div class="interests-grid">
+
+            <div class="interest-card card-ai">
+                <div>
+                    <span class="interest-icon">🤖</span>
+                    <div class="interest-tag">Trending</div>
+                    <div class="interest-title">Artificial Intelligence</div>
+                    <p class="interest-desc">Exploring intelligent systems, neural networks, and how machines can learn to reason and make decisions.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="interest-card card-ml">
+                <div>
+                    <span class="interest-icon">📊</span>
+                    <div class="interest-tag">Data-Driven</div>
+                    <div class="interest-title">Machine Learning</div>
+                    <p class="interest-desc">Pattern recognition, predictive modeling, and training algorithms that improve through experience.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="interest-card card-arch">
+                <div>
+                    <span class="interest-icon">🔧</span>
+                    <div class="interest-tag">Low-Level</div>
+                    <div class="interest-title">Computer Architecture</div>
+                    <p class="interest-desc">How processors work, instruction pipelines, memory hierarchy, and the hardware beneath the software.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="interest-card card-algo">
+                <div>
+                    <span class="interest-icon">🧩</span>
+                    <div class="interest-tag">Problem Solving</div>
+                    <div class="interest-title">Algorithms & DSA</div>
+                    <p class="interest-desc">Data structures, algorithm design, complexity analysis, and elegant computational problem solving.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="interest-card card-cp">
+                <div>
+                    <span class="interest-icon">🏆</span>
+                    <div class="interest-tag">Competitive</div>
+                    <div class="interest-title">Competitive Programming</div>
+                    <p class="interest-desc">Solving challenging problems under time constraints. Active participant in university and regional contests.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+            <div class="interest-card card-web">
+                <div>
+                    <span class="interest-icon">💻</span>
+                    <div class="interest-tag">Building</div>
+                    <div class="interest-title">Web Development</div>
+                    <p class="interest-desc">Crafting user interfaces, responsive layouts, and bringing creative digital experiences to life.</p>
+                </div>
+                <div class="interest-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+            </div>
+
+        </div>
+    </section>
+    <section id="achievements">
+        <div class="section-label">// Recognition</div>
+        <div class="section-title">My Achievements</div>
+        <div class="achievements-list">
+
+            <div class="achievement-card ach-gold">
+                <div class="ach-rank">⭐</div>
+                <div class="ach-divider"></div>
+                <div class="ach-text">
+                    <div class="ach-title">Content Maker & Mentor — MU Programming Olympiad 2025 Season 2</div>
+                    <div class="ach-subtitle">Metropolitan University · 2025</div>
+                </div>
+                <div class="ach-medal">🏅</div>
+            </div>
+
+            <div class="achievement-card ach-purple">
+                <div class="ach-rank">31<span class="ach-rank-small">th</span></div>
+                <div class="ach-divider"></div>
+                <div class="ach-text">
+                    <div class="ach-title">Intra Metropolitan University Programming Contest 2025</div>
+                    <div class="ach-subtitle">31st place out of 57 teams · 2025</div>
+                </div>
+                <div class="ach-medal">🥉</div>
+            </div>
+
+            <div class="achievement-card ach-green">
+                <div class="ach-rank">14<span class="ach-rank-small">th</span></div>
+                <div class="ach-divider"></div>
+                <div class="ach-text">
+                    <div class="ach-title">SWE Techjam Programming Contest 2024</div>
+                    <div class="ach-subtitle">14th place out of 67 participants · 2024</div>
+                </div>
+                <div class="ach-medal">🥈</div>
+            </div>
+
+            <div class="achievement-card ach-red">
+                <div class="ach-rank">25<span class="ach-rank-small">th</span></div>
+                <div class="ach-divider"></div>
+                <div class="ach-text">
+                    <div class="ach-title">MU CP Booster 1.0 Programming Contest 2024</div>
+                    <div class="ach-subtitle">25th place out of 104 participants · 2024</div>
+                </div>
+                <div class="ach-medal">🏆</div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div class="contact-inner">
+            <div class="contact-orb"></div>
+            <div class="section-label contact-label-center">// Say Hello</div>
+            <div class="contact-title">Let's Connect</div>
+            <p class="contact-sub">Reach out via social media or drop me an email — I'd love to hear from you.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com/DegenerationXAvi76.Violent/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-facebook"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/thevoid_phoenix/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-instagram"></i> Instagram
+                </a>
+                <a href="https://www.linkedin.com/in/partho-deb-1433383a1/" class="social-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="mailto:parthodebofficial2003@gmail.com" class="social-link">
+                    <i class="fa-solid fa-envelope"></i> Email Me
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Partho Deb</p>
+    </footer>
 
 </body>
 </html>
